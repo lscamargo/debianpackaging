@@ -1,12 +1,12 @@
-Source: helloworld
+Source: debianpackaging
 Maintainer: Lucas da Silva Camargo <95lucascamargo@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Section: utils
 
-Package: helloworld
+Package: debianpackaging
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}  
-Description: a simple helloworld package
- Created from PackageCloud tutorial.
+Description: a simple debianpackaging package
+ Created from wiki.debian.org Packaging Tutorial.

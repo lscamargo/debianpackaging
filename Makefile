@@ -1,5 +1,5 @@
 helloworld:
-	gcc main.c -o helloworld
+	gcc main.c -o debianpackaging
 
-install: helloworld
-	install -m 0755 helloworld /usr/local/bin
+install: debianpackaging
+	install -m 0755 debianpackaging  $(DESTDIR)/usr/bin
